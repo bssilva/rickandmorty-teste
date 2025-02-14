@@ -1,28 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+  <!-- 
+    Tarefa:
+    - Conseguir se conectar/consumir API rick and morty (https://rickandmortyapi.com/api/character)
+    - Quando clicar no botao, exibir o nome, status, imagem Do Rick Sanchez.
+    - Estrutura do layoult 
+      Botão de buscar novo personagem
+      
+      Rick Sanches - Alive
+      Foto dele embaixo 
+   -->
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
